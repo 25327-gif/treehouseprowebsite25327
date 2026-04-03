@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!-- This defines my code dodument as an HTML5 webpage -->
+<html lang="en"> <!-- This sets tha main HTML element to english -->
+
+<!-- Head section sets settings and links for the page -->
+
+<head>
+    <meta charset="utf-8"> <!-- Tells the browser how to display the website's text characters -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Links the the HTML file to the external CSS file -->
+    <title>THP - TreeHousePro | Gallery</title> <!-- Sets the title to be shown in the browser tab -->
+    <link rel="icon" href="images/treehousepro_logo.png" type="image/png"> <!-- Sets the website's icon (favicon) -->
+</head>
+
+<!-- Main content of the webpage -->
+
+<body>
+
+    <!-- Header section contains the logo and the navigation bar -->
+    <header>
+
+        <a href="index.html">
+            <img class="tree_house_pro_logo" src="images/treehousepro_logo.png" alt="TreeHousePro Logo">
+        </a>
+        <!-- Displays the "TreeHousePro" logo and makes it clickable to return to the home page -->
+
+        <!-- Navigation bar linking to all the websites pages -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="works.html">How it works</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+
+    </header>
+
+    <!-- Contains the main content of the "Gallery" page -->
+    <main>
+
+        <h1>Gallery</h1> <!-- Main heading of the "Gallery" page -->
+
+        <!-- This is a container for the image slider -->
+        <!-- Image slider section showing Sam's different treehouses -->
+        <!-- The code for this image slider was taken from a Youtube tutorial -->
+        <!-- Source: https://www.youtube.com/watch?v=McPdzhLRzCg -->
+        <section class="container">
+            <div class="slider-wrapper"> <!-- That's a wrapper for positioning the slider -->
+                <!-- That is the slider containing all the images -->
+                <div class="slider">
+                    <img id="slide-1" src="images/fantasy_treehouse.jpg" alt="Fantasy Treehouse"> <!-- Slide 1 image -->
+                    <img id="slide-2" src="images/hero_image.jpg" alt="Snowy Treehouse"> <!-- Slide 2 image -->
+                    <img id="slide-3" src="images/grown_up_treehouse.jpg" alt="Huge Forest Treehouse">
+                    <!-- Slide 3 image -->
+                    <img id="slide-4" src="images/modern_treehouse.jpg" alt="Kids Treehouse"> <!-- Slide 4 image -->
+                    <img id="slide-5" src="images/rustic_treehouse.jpg" alt="Panoramic View Treehouse">
+                    <!-- Slide 5 image -->
+                </div>
+                <!-- Navigation dots for the slider-->
+                <div class="slider-nav">
+                    <!-- Links to each slide -->
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                    <a href="#slide-5"></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- The footer section of the website with contact details and copyright -->
+    <footer>
+
+        <!-- TreeHousPro information section -->
+        <div class="rule_below">
+            <h3>TreeHousePro</h3> <!-- Little title at the footer with the business name -->
+            <p>THP | Ph: 029 512 3656 | Email: admin@treehousepro.biz</p>
+            <!-- Text with contact details of "TreeHousPro"-->
+        </div>
+
+        <!-- Text with copyright information about the website -->
+        <p><small>&copy; TreeHousePro 2026 | Website by
+                Daniel Oren</small></p>
+
+    </footer>
+
+</body>
+
+</html>
